@@ -7,17 +7,41 @@
 import streamlit as st
 
 # ========== CONFIG ==========
-st.set_page_config(page_title="Your Name | Portfolio", layout="wide")
+st.set_page_config(page_title="Demoti Ravi Chandra | Portfolio", layout="wide")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["About Me", "Skills", "Courses", "Projects", "Resume", "Contact"])
 
+
 # ========== ABOUT ==========
 if page == "About Me":
-    st.title("👋 Hi, I'm Demoti Ravi Chandra")
-    st.subheader("Data Analyst | ML Enthusiast | Streamlit Developer")
+    st.title("👋 Hello, I'm Demoti Ravi Chandra")
+    st.subheader("🔹 Data & Analytics Professional | Streamlit Developer | ML Enthusiast")
+
     st.write("""
-    I’m passionate about building intuitive data tools and solving real-world problems with analytics and machine learning.
-    I have hands-on experience with Python, Streamlit, Power BI, and more.
+    I'm a results-driven professional with experience in building analytical solutions and automation tools 
+    for solving real-world business problems. My expertise lies in data analytics, machine learning, and 
+    low-code platforms like Streamlit — enabling rapid development of impactful dashboards and applications.
+    
+    I currently work in **Ethics & Compliance Systems & Analytics**, where I focus on integrating machine learning, 
+    Power BI, Excel reporting, and incident management systems into a centralized platform.
+
+    I'm passionate about transforming messy data into meaningful insights, and I thrive in cross-functional 
+    environments where technology meets strategy.
+    """)
+
+    st.markdown("### 🔍 Key Highlights")
+    st.markdown("""
+    - 📊 Experience with Streamlit, Python, Pandas, Power BI, Excel Automation  
+    - 🤖 Built and deployed ML models for object detection and data classification  
+    - 🛠️ Created centralized portals for reporting, approvals, and data tracking  
+    - 📈 Strong understanding of analytics lifecycle from intake to action  
+    """)
+
+    st.markdown("### 📫 Let’s Connect")
+    st.markdown("""
+    - [LinkedIn](https://linkedin.com/in/your-profile)  
+    - [GitHub](https://github.com/yourusername)  
+    - 📧 your.email@example.com
     """)
 
 # ========== SKILLS ==========
@@ -76,9 +100,9 @@ elif page == "Resume":
 elif page == "Contact":
     st.title("📬 Contact")
     st.markdown("""
-    - 📧 Email: ravichandra.dcp@gmail.com  
+    - 📧 Email: your.email@example.com  
     - 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-    - 💻 [GitHub](https://github.com/bobbydcp)
+    - 💻 [GitHub](https://github.com/yourusername)
     """)
 
 
