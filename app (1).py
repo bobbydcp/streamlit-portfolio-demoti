@@ -101,8 +101,8 @@ elif page == "Contact":
     st.title("📬 Contact")
     st.markdown("""
     - 📧 Email: your.email@example.com  
-    - 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-    - 💻 [GitHub](https://github.com/yourusername)
+    - 🔗 [LinkedIn](https://linkedin.com/in/ravi-c-6035bb168)  
+    - 💻 [GitHub](https://github.com/bobbydcp)
     """)
 
 
